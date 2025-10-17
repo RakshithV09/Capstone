@@ -1,0 +1,195 @@
+/* Base dark theme */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e1117;
+    margin: 0;
+    padding: 0;
+    color: #d0d7ff;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: 3rem auto 5rem auto;
+    padding: 2.5rem 3rem;
+    background-color: #1c2033;
+    border-radius: 1rem;
+    box-shadow: 0 0 25px rgba(0, 100, 255, 0.4);
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 1px 8px #2684ff;
+}
+
+/* User bar */
+.user-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user-bar .username {
+    color: #7ea5ff;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #3a78ff;
+}
+
+.user-bar form, .user-bar a.btn {
+    margin: 0;
+}
+
+.user-bar button, .user-bar a.btn {
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 6px 20px;
+    border-radius: 25px;
+    color: #7daaff;
+    background-color: transparent;
+    border: 1.8px solid #7daaff;
+    transition: 0.3s ease;
+}
+
+.user-bar button:hover, .user-bar a.btn:hover {
+    background-color: #377dff;
+    color: white;
+    box-shadow: 0 0 15px #377dff;
+    transform: scale(1.05);
+}
+
+/* Textarea */
+textarea.form-control {
+    background-color: #222842;
+    color: #dde6ff;
+    border: 1px solid #3b4ec8;
+    border-radius: 10px;
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 140px;
+}
+
+/* Buttons */
+button.btn, input[type="submit"].btn {
+    background-color: #377dff;
+    border-color: #377dff;
+    color: white;
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+
+button.btn:hover, input[type="submit"].btn:hover {
+    background-color: #1a4ada;
+    border-color: #1a4ada;
+    box-shadow: 0 0 12px #1a4ada;
+    transform: scale(1.05);
+}
+
+/* Form labels */
+label.form-label {
+    color: #a8b0ff;
+    font-weight: 600;
+}
+
+/* Progress bar */
+progress {
+    border-radius: 10px;
+    background-color: #273051;
+    height: 1rem;
+    overflow: hidden;
+}
+
+/* Result and error text */
+#result, #csv-error {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+#result {
+    display: block !important;
+    min-height: 80px;
+    margin-top: 20px;
+    color: #b8e0fb;                   /* Light cyan for robotic look */
+    background: #181d23;
+    font-family: 'DM Mono','Fira Mono', 'Roboto Mono', monospace;
+    font-size: 1.08rem;
+    border-radius: 10px;
+    padding: 18px 26px;
+    word-break: break-word;
+    box-shadow: 0 0 12px #0ff2;
+    border: 1.5px solid #313e45;
+    letter-spacing: 0.015em;
+}
+
+#result strong, #result b {
+    color: #40f382;                   /* Energetic green for keywords */
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+#result ul {
+    margin-bottom: 0.6em;
+}
+
+#result li {
+    color: #5daefa;                   /* Soft blue for aspects */
+    font-family: 'DM Mono','Fira Mono', 'Roboto Mono', monospace;
+    font-size: 1.07rem;
+    margin-bottom: 0.3em;
+}
+
+
+
+#csv-error {
+    color: #ff6b6b;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    color: #dde6ff;
+}
+
+table thead th {
+    background-color: #2f3a8f;
+    padding: 12px;
+    text-align: left;
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #44476b;
+    vertical-align: top;
+}
+
+table tbody tr:hover {
+    background-color: #2a2e69;
+}
+
+/* Links */
+a, a:visited {
+    color: #6fa0ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #aad2ff;
+    text-decoration: underline;
+}
