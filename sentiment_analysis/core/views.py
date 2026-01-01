@@ -11,45 +11,50 @@ from rest_framework.parsers import MultiPartParser
 from rest_framework.permissions import IsAuthenticated
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
-from .ml_utils import predict_sentiment, predict_aspect_sentiments
-from .models import ReviewHistory
 from django.contrib.auth.decorators import login_required
 
-# Add imports for langdetect and translation
+# Importing from the top-level ml_model package
+from ml_model.ml_utils import predict_sentiment, predict_aspect_sentiments
+from .models import ReviewHistory
+
 from langdetect import detect
 from googletrans import Translator
 
 translator = Translator()
 
 def detect_and_translate_to_english(text):
+    if not text or len(text.strip()) < 2:
+        return 'en', text
     try:
         lang = detect(text)
-    except Exception:
+    except:
         lang = 'en'
-
+    
     translated = text
     if lang != 'en':
         try:
             translated = translator.translate(text, dest='en').text
-        except Exception:
-            pass  # If translation fails, use original text
-
+        except:
+            pass
     return lang, translated
 
 def aggregate_overall_sentiment(aspects):
-    counts = {'positive': 0, 'negative': 0}
-    for sentiment in aspects.values():
-        s = sentiment.lower()
-        if 'positive' in s:
-            counts['positive'] += 1
-        elif 'negative' in s:
-            counts['negative'] += 1
-    # Decide overall sentiment
-    if counts['positive'] >= counts['negative']:
-        return 'positive'
-    else:
-        return 'negative'
+    """Determines overall sentiment based on the collection of aspect scores."""
+    if not aspects:
+        return 'neutral'
+    
+    vals = [v.lower() for v in aspects.values()]
+    pos_count = vals.count('positive')
+    neg_count = vals.count('negative')
 
+    if pos_count > neg_count:
+        return 'positive'
+    elif neg_count > pos_count:
+        return 'negative'
+    else:
+        return 'neutral'
+
+# --- AUTH VIEWS ---
 def register(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
@@ -68,27 +73,24 @@ def history(request):
 def home(request):
     return render(request, 'core/index.html')
 
+# --- API VIEWS ---
 class SentimentPredict(APIView):
-    permission_classes = [IsAuthenticated]  # Only allow logged-in users
+    permission_classes = [IsAuthenticated]
 
     def post(self, request):
         review = request.data.get('review', '')
         if not review:
-            return Response({'error': 'Review text not provided'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'error': 'No text provided'}, status=400)
 
-        # Detect and translate
         lang, translated_text = detect_and_translate_to_english(review)
         aspects = predict_aspect_sentiments(translated_text)
-        
-        # Aggregate overall sentiment from aspects
         overall_sentiment = aggregate_overall_sentiment(aspects)
 
-        # Store original review but save aggregated overall sentiment
         ReviewHistory.objects.create(
             user=request.user,
             review_text=review,
             sentiment=overall_sentiment,
-            aspects=aspects,
+            aspects=aspects
         )
 
         return Response({
@@ -97,92 +99,55 @@ class SentimentPredict(APIView):
             'original_language': lang,
             'original_text': review,
             'translated_text': translated_text,
-        }, status=status.HTTP_200_OK)
+        })
 
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 @parser_classes([MultiPartParser])
 def upload_csv(request):
     if 'file' not in request.FILES:
-        return Response({'error': 'CSV file not provided'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'error': 'No file provided'}, status=400)
 
     csv_file = request.FILES['file']
-    if not csv_file.name.endswith('.csv'):
-        return Response({'error': 'File is not CSV'}, status=status.HTTP_400_BAD_REQUEST)
+    decoded_file = csv_file.read().decode('utf-8')
+    reader = csv.DictReader(io.StringIO(decoded_file))
 
-    try:
-        decoded_file = csv_file.read().decode('utf-8')
-        io_string = io.StringIO(decoded_file)
-        reader = csv.DictReader(io_string)
+    results = []
+    stats = {'positive': 0, 'negative': 0, 'neutral': 0}
 
-        results = []
-        positive = negative = 0
-        errors = []
+    for row in reader:
+        text = row.get('review_text') or row.get('text') or row.get('review')
+        if not text: continue
 
-        row_number = 1
-        for row in reader:
-            review_text = row.get('review_text') or row.get('text') or ''
-            if not review_text:
-                errors.append(f"Row {row_number}: Review text missing")
-                row_number += 1
-                continue
-            row_number += 1
+        _, translated = detect_and_translate_to_english(text)
+        aspects = predict_aspect_sentiments(translated)
+        sentiment = aggregate_overall_sentiment(aspects)
+        
+        stats[sentiment] += 1
 
-            lang, translated = detect_and_translate_to_english(review_text)
-            aspects = predict_aspect_sentiments(translated)
-            # Aggregate overall sentiment for batch upload too
-            overall_sentiment = aggregate_overall_sentiment(aspects)
+        ReviewHistory.objects.create(
+            user=request.user,
+            review_text=text,
+            sentiment=sentiment,
+            aspects=aspects
+        )
+        results.append({'review': text, 'sentiment': sentiment, 'aspects': aspects})
 
-            results.append({
-                'review': review_text,
-                'sentiment': overall_sentiment,
-                'aspects': aspects
-            })
+    # Save CSV results to media
+    filename = f"batch_{uuid.uuid4().hex[:8]}.csv"
+    media_path = settings.MEDIA_ROOT
+    if not os.path.exists(media_path): os.makedirs(media_path)
+    
+    filepath = os.path.join(media_path, filename)
+    with open(filepath, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=['review', 'sentiment', 'aspects'])
+        writer.writeheader()
+        writer.writerows(results)
 
-            # Save each CSV review to user history
-            ReviewHistory.objects.create(
-                user=request.user,
-                review_text=review_text,
-                sentiment=overall_sentiment,
-                aspects=aspects,
-            )
-
-            if 'positive' in overall_sentiment.lower():
-                positive += 1
-            else:
-                negative += 1
-
-        if errors:
-            return Response({'error': 'Invalid rows: ' + '; '.join(errors)}, status=status.HTTP_400_BAD_REQUEST)
-
-        # Save results to CSV file for download
-        filename = f"sentiment_results_{uuid.uuid4().hex}.csv"
-        media_path = os.path.join(settings.BASE_DIR, 'media')
-        if not os.path.exists(media_path):
-            os.makedirs(media_path)
-        filepath = os.path.join(media_path, filename)
-
-        with open(filepath, mode='w', newline='', encoding='utf-8') as f:
-            fieldnames = ['review', 'sentiment', 'aspects']
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            for res in results:
-                aspects_str = '; '.join(f"{k}: {v}" for k, v in res['aspects'].items())
-                writer.writerow({
-                    'review': res['review'],
-                    'sentiment': res['sentiment'],
-                    'aspects': aspects_str
-                })
-
-        download_url = f"/media/{filename}"
-
-        summary = {
-            'total_reviews': len(results),
-            'positive': positive,
-            'negative': negative,
-            'download_url': download_url,
-        }
-        return Response(summary)
-
-    except Exception as e:
-        return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    return Response({
+        'total_reviews': len(results),
+        'positive': stats['positive'],
+        'negative': stats['negative'],
+        'neutral': stats['neutral'],
+        'download_url': f"{settings.MEDIA_URL}{filename}"
+    })

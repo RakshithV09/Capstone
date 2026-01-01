@@ -1,0 +1,501 @@
+review,sentiment,aspects
+Not worth the price.,negative,{'price': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Quality could be better.,negative,{'quality': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Arrived late but product is good.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Battery life is too short.,negative,{'batterylife': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Terrible customer service.,negative,{'service': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Not worth the price.,negative,{'price': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+Not worth the price.,negative,{'price': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+Terrible customer service.,negative,{'service': 'negative'}
+Doesn't match the description.,negative,{'general': 'negative'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+"Absolutely love it, works perfectly.",positive,{'general': 'positive'}
+Amazing features and easy to use.,positive,{'general': 'positive'}
+"Five stars, will buy again.",negative,{'general': 'negative'}
+"Excellent product, highly recommend!",positive,{'general': 'positive'}
+Doesn't match the description.,negative,{'general': 'negative'}
